@@ -20,11 +20,18 @@
       height: 240px;
       display: flex;
       flex-direction: column;
-      overflow: scroll;
+      overflow: auto;
     }
   
     button {
       margin-top: auto;
+      font-size: medium;
+      cursor: pointer;
+      background-color: tomato;
+      color: white;
+      border: none;
+      outline: none;
+      padding: 10px;
     }
   }
   
