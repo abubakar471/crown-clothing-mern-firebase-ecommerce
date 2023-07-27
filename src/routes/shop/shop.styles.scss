@@ -1,0 +1,8 @@
+.products-container{
+    display: grid;
+    // it means we want 4 item in 1 line with 1 fr means with equal distance
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+    row-gap: 50px;
+}
+
