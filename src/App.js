@@ -11,6 +11,7 @@ import { createUserDocumentFromAuth, onAuthStateChangedListener } from "./utils/
 
 const App = () => {
   const dispatch = useDispatch();
+  
   useEffect(() => {
     const unsubscribe = onAuthStateChangedListener((user) => {
       if (user) {
